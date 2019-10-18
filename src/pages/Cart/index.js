@@ -15,6 +15,21 @@ export default function Cart() {
             <th />
           </tr>
         </thead>
+        <tbody>
+          <tr>
+            <td>
+              <img
+                src="https://assets.adidas.com/images/w_600,f_auto,q_auto:sensitive,fl_lossy/8f31b7a8e7f34c9085d1a80f009b2cc9_9366/Tenis_Ultraboost_Preto_BB6166_01_standard.jpg"
+                alt="Ultraboost"
+              />
+            </td>
+            <td>
+              <strong>Adidas Ultraboost</strong>
+              <span>$150.00</span>
+            </td>
+            <td></td>
+          </tr>
+        </tbody>
       </ProductTable>
 
       <footer>
