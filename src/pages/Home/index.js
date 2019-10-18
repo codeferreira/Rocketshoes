@@ -12,7 +12,7 @@ export default function Home() {
           alt="Tênis"
         />
         <strong>Adidas Ultraboost</strong>
-        <span>$150,00</span>
+        <span>$150.00</span>
 
         <button type="button">
           <div>
@@ -27,7 +27,7 @@ export default function Home() {
           alt="Tênis"
         />
         <strong>Adidas Ultraboost</strong>
-        <span>$150,00</span>
+        <span>$150.00</span>
 
         <button type="button">
           <div>
@@ -42,7 +42,7 @@ export default function Home() {
           alt="Tênis"
         />
         <strong>Adidas Ultraboost</strong>
-        <span>$150,00</span>
+        <span>$150.00</span>
 
         <button type="button">
           <div>
@@ -57,7 +57,7 @@ export default function Home() {
           alt="Tênis"
         />
         <strong>Adidas Ultraboost</strong>
-        <span>$150,00</span>
+        <span>$150.00</span>
 
         <button type="button">
           <div>
@@ -72,7 +72,7 @@ export default function Home() {
           alt="Tênis"
         />
         <strong>Adidas Ultraboost</strong>
-        <span>$150,00</span>
+        <span>$150.00</span>
 
         <button type="button">
           <div>
@@ -87,7 +87,7 @@ export default function Home() {
           alt="Tênis"
         />
         <strong>Adidas Ultraboost</strong>
-        <span>$150,00</span>
+        <span>$150.00</span>
 
         <button type="button">
           <div>
