@@ -9,7 +9,7 @@ import api from '../../services/api';
 
 import { ProductList } from './styles';
 
-function Home({ addToCart }) {
+function Home({ addToCart, amount }) {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
@@ -41,7 +41,8 @@ function Home({ addToCart }) {
 
           <button type="button" onClick={() => handleAddProduct(product)}>
             <div>
-              <MdAddShoppingCart size={16} color="#fff" /> 3
+              <MdAddShoppingCart size={16} color="#fff" />{' '}
+              {amount[product.id] || 0}
             </div>
             <span>Add to Cart</span>
           </button>
@@ -51,10 +52,17 @@ function Home({ addToCart }) {
   );
 }
 
+const mapStateToProps = state => ({
+  amount: state.cart.reduce((amount, product) => {
+    amount[product.id] = product.amount;
+    return amount;
+  }, {}),
+});
+
 const mapDispatchToProps = dispatch =>
   bindActionCreators(CartActions, dispatch);
 
 export default connect(
-  null,
+  mapStateToProps,
   mapDispatchToProps
 )(Home);
