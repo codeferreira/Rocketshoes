@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import * as CartActions from '../../store/modules/cart/actions';
 import { MdAddShoppingCart } from 'react-icons/md';
+import * as CartActions from '../../store/modules/cart/actions';
 
 import { formatPrice } from '../../util/format';
 import api from '../../services/api';
