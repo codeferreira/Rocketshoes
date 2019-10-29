@@ -1,12 +1,12 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import * as CartActions from '../../store/modules/cart/actions';
 import {
   MdRemoveCircleOutline,
   MdAddCircleOutline,
   MdDelete,
 } from 'react-icons/md';
+import * as CartActions from '../../store/modules/cart/actions';
 
 import { formatPrice } from '../../util/format';
 
