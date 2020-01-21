@@ -25,38 +25,34 @@ Rocketshoes is a basic e-commerce page, made to practice some Redux concepts and
 
 ## Table of contents
 
-- [Tech List](#tech-list)
-- [Installation](#installation)
+- [Features](#features)
+- [Getting Started](#getting-started)
 - [Contributing](#contributing)
 - [License](#license)
 
-## Tech List
+## Features
 
-In this project was builded using the above technologies.
+This app features all the latest tools and practices in web development!
 
-- React (With Hooks)
-- Redux
-- Redux Saga
+- ⚛️ **React Js** — A JavaScript library for building user interfaces
+- ⚛️ **Redux** - A Predictable State Container for JS Apps
+- ⚛️ **Redux Saga** - A library to manage application side effects
 
-## Installation
+## Getting Started
 
-Clone this repository into a folder of your preference.
+1. Clone this repo using `git clone https://github.com/codeferreira/Rocketshoes.git`
+2. Move yourself to the appropriate directory: `cd Rocketshoes`<br />
+3. Run `yarn` or `npm i` to install dependencies<br />
 
-```
-git clone https://github.com/codeferreira/Rocketshoes.git
-```
+### Getting started with the backend app
+For this project the server is a JSON file inside the main folder.
 
-Execute the proper command to install the dependencies.
+1. Install json-server using `yarn global add json-server`<br />
+2. Start the server using `json-server server.json -p 3333 -w`
 
-```
-yarn
-```
+### Getting started with the frontend app
 
-or
-
-```
-npm i
-```
+1. Run `yarn start` to start the web application
 
 ## Contributing
 
