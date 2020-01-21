@@ -25,8 +25,6 @@ Rocketshoes is a basic e-commerce page, made to practice some Redux concepts and
 
 ## Table of contents
 
-- [Overview](#overview)
-- [Table of contents](#table-of-contents)
 - [Tech List](#tech-list)
 - [Installation](#installation)
 - [Contributing](#contributing)
