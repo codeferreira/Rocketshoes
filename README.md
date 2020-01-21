@@ -4,13 +4,13 @@
 
 </h1>
 
-<h2 align="center">
-Shoes e-commerce created to learn more about Redux
-</h2>
-
 <h3 align="center">
-Project from Rocketseat Bootcamp
+Shoes e-commerce created to learn more about Redux
 </h3>
+
+<h4 align="center">
+Project from Rocketseat Bootcamp
+</h4>
 
 <div align="center">
 
