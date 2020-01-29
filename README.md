@@ -26,9 +26,9 @@ Rocketshoes is a basic e-commerce page, made to practice some Redux concepts and
 ## Table of contents
 
 - [Features](#features)
-- [Getting Started](#getting-started)
-- [Contributing](#contributing)
-- [License](#license)
+- [Getting Started](#rocket-getting-started)
+- [Contributing](#bulb-contributing)
+- [License](#page_facing_up-license)
 
 ## Features
 
@@ -38,7 +38,7 @@ This app features all the latest tools and practices in web development!
 - ⚛️ **Redux** - A Predictable State Container for JS Apps
 - ⚛️ **Redux Saga** - A library to manage application side effects
 
-## Getting Started
+## :rocket: Getting Started
 
 1. Clone this repo using `git clone https://github.com/codeferreira/Rocketshoes.git`
 2. Move yourself to the appropriate directory: `cd Rocketshoes`<br />
@@ -54,10 +54,10 @@ For this project the server is a JSON file inside the main folder.
 
 1. Run `yarn start` to start the web application
 
-## Contributing
+## :bulb: Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## License
+## :page_facing_up: License
 
 MIT © [Ferreira Code](https://github.com/codeferreira)
